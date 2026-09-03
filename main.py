@@ -5,7 +5,7 @@ app = FastAPI(title="FlowPipe Sample App")
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from the FlowPipe sample app", "version": "1.0.0"}
+    return {"message": "Hello from the FlowPipe sample app", "version": "1.1.0"}
 
 
 @app.get("/health")
